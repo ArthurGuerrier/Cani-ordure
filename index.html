@@ -1,1 +1,744 @@
-<h1>Coucou</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59ec4a78d41836beb5fe4fb95a7602bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59ec4a78d41836beb5fe4fb95a7602bd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59ec4a78d41836beb5fe4fb95a7602bd = L.map(
+                "map_59ec4a78d41836beb5fe4fb95a7602bd",
+                {
+                    center: [49.11104029006922, 6.126641438471117],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_40b4ffd94a6e55874883d4ab6452a250 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var marker_76f16935837d714c72abc6029b9410e0 = L.marker(
+                [49.11104029006922, 6.126641438471117],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_00d70e837f4b47c09e17592d37c396db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76f16935837d714c72abc6029b9410e0.setIcon(icon_00d70e837f4b47c09e17592d37c396db);
+        
+    
+        var popup_f4f176f6a45095a1fc2ee4eff42b1c79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a9f34e7c3b11a9b95404b76d81dd3de = $(`<div id="html_2a9f34e7c3b11a9b95404b76d81dd3de" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_f4f176f6a45095a1fc2ee4eff42b1c79.setContent(html_2a9f34e7c3b11a9b95404b76d81dd3de);
+            
+        
+
+        marker_76f16935837d714c72abc6029b9410e0.bindPopup(popup_f4f176f6a45095a1fc2ee4eff42b1c79)
+        ;
+
+        
+    
+    
+            var marker_25f511f646da63bf174df140dbec87d5 = L.marker(
+                [49.11184794014952, 6.125215379734042],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_3ee1b5b10a41e7d09ab0f7349086b7ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25f511f646da63bf174df140dbec87d5.setIcon(icon_3ee1b5b10a41e7d09ab0f7349086b7ba);
+        
+    
+        var popup_9245cc4210f376c1dbea1e028de79741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b353a431ef60dc76bb05a10fc8608e5 = $(`<div id="html_1b353a431ef60dc76bb05a10fc8608e5" style="width: 100.0%; height: 100.0%;">Distributeur</div>`)[0];
+                popup_9245cc4210f376c1dbea1e028de79741.setContent(html_1b353a431ef60dc76bb05a10fc8608e5);
+            
+        
+
+        marker_25f511f646da63bf174df140dbec87d5.bindPopup(popup_9245cc4210f376c1dbea1e028de79741)
+        ;
+
+        
+    
+    
+            var marker_8fed4a3ed0e57f16f06767ae51a74abe = L.marker(
+                [49.1112787071038, 6.125470452928716],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_f98b0f631b15e461fde9c8ecf5fa921f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8fed4a3ed0e57f16f06767ae51a74abe.setIcon(icon_f98b0f631b15e461fde9c8ecf5fa921f);
+        
+    
+        var popup_4aa0c5109da7151c2c8eb9cbf9932a78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc7c070e42cd0b557a28b66d28989dd7 = $(`<div id="html_fc7c070e42cd0b557a28b66d28989dd7" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_4aa0c5109da7151c2c8eb9cbf9932a78.setContent(html_fc7c070e42cd0b557a28b66d28989dd7);
+            
+        
+
+        marker_8fed4a3ed0e57f16f06767ae51a74abe.bindPopup(popup_4aa0c5109da7151c2c8eb9cbf9932a78)
+        ;
+
+        
+    
+    
+            var marker_b3e6a2f6b1468fbb5dc5d4924c2cad63 = L.marker(
+                [49.10632800255506, 6.122851701440996],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_3452adce1b2c1f0642cb851f8eff2fb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3e6a2f6b1468fbb5dc5d4924c2cad63.setIcon(icon_3452adce1b2c1f0642cb851f8eff2fb4);
+        
+    
+        var popup_78b6f1d340c052063b9dfc4d62d6e3e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b710908fb4ebc1a534434ad95b62e6fe = $(`<div id="html_b710908fb4ebc1a534434ad95b62e6fe" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_78b6f1d340c052063b9dfc4d62d6e3e2.setContent(html_b710908fb4ebc1a534434ad95b62e6fe);
+            
+        
+
+        marker_b3e6a2f6b1468fbb5dc5d4924c2cad63.bindPopup(popup_78b6f1d340c052063b9dfc4d62d6e3e2)
+        ;
+
+        
+    
+    
+            var marker_7f210ab977baba8f76413af1534b5a39 = L.marker(
+                [49.110777244760875, 6.120663487307818],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_17ae9bc92f3dcc0b420cbaa23cd22fee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f210ab977baba8f76413af1534b5a39.setIcon(icon_17ae9bc92f3dcc0b420cbaa23cd22fee);
+        
+    
+        var popup_97952ffc0b19da3c8f1256177abb7b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc654daca67080bee95f401cafce9c03 = $(`<div id="html_cc654daca67080bee95f401cafce9c03" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_97952ffc0b19da3c8f1256177abb7b42.setContent(html_cc654daca67080bee95f401cafce9c03);
+            
+        
+
+        marker_7f210ab977baba8f76413af1534b5a39.bindPopup(popup_97952ffc0b19da3c8f1256177abb7b42)
+        ;
+
+        
+    
+    
+            var marker_2b39c89e8299213c6608fb15b12c2fbe = L.marker(
+                [49.10990711386459, 6.117056937137466],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_9139c7694da7341e59e8f4efdbdb5f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b39c89e8299213c6608fb15b12c2fbe.setIcon(icon_9139c7694da7341e59e8f4efdbdb5f8e);
+        
+    
+        var popup_fb53088f91171644a2b87cc59b0b8ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db097b42e081836b7a8fbd07964a3822 = $(`<div id="html_db097b42e081836b7a8fbd07964a3822" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_fb53088f91171644a2b87cc59b0b8ef5.setContent(html_db097b42e081836b7a8fbd07964a3822);
+            
+        
+
+        marker_2b39c89e8299213c6608fb15b12c2fbe.bindPopup(popup_fb53088f91171644a2b87cc59b0b8ef5)
+        ;
+
+        
+    
+    
+            var marker_ec850475203883a14d06cd5e267b3d74 = L.marker(
+                [49.109371877151816, 6.120362061582531],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_0011e0890070c796f1ee990ac87e5b11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec850475203883a14d06cd5e267b3d74.setIcon(icon_0011e0890070c796f1ee990ac87e5b11);
+        
+    
+        var popup_db8e8517e9723fc7416fd8e9aa9b23d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fe2cdd6691c2cdaa06341dca1f55842 = $(`<div id="html_7fe2cdd6691c2cdaa06341dca1f55842" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_db8e8517e9723fc7416fd8e9aa9b23d4.setContent(html_7fe2cdd6691c2cdaa06341dca1f55842);
+            
+        
+
+        marker_ec850475203883a14d06cd5e267b3d74.bindPopup(popup_db8e8517e9723fc7416fd8e9aa9b23d4)
+        ;
+
+        
+    
+    
+            var marker_04d24c0b440445287fb66980884254a3 = L.marker(
+                [49.11089483930901, 6.122662556685985],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_85e5b03325b48bde54337fc55e7666f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_04d24c0b440445287fb66980884254a3.setIcon(icon_85e5b03325b48bde54337fc55e7666f3);
+        
+    
+        var popup_4f5b31544a14a5b40342c8778aea6870 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_617c711af6c9601366c00cb4f513a391 = $(`<div id="html_617c711af6c9601366c00cb4f513a391" style="width: 100.0%; height: 100.0%;">Distributeur</div>`)[0];
+                popup_4f5b31544a14a5b40342c8778aea6870.setContent(html_617c711af6c9601366c00cb4f513a391);
+            
+        
+
+        marker_04d24c0b440445287fb66980884254a3.bindPopup(popup_4f5b31544a14a5b40342c8778aea6870)
+        ;
+
+        
+    
+    
+            var marker_ae28c4c6ef1d7dbfa90a602831148999 = L.marker(
+                [49.110863082249296, 6.122705552468989],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_c940d183908ef6eed84ff5c1f7e4edc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae28c4c6ef1d7dbfa90a602831148999.setIcon(icon_c940d183908ef6eed84ff5c1f7e4edc6);
+        
+    
+        var popup_63c75de7186e23cb8b6705b7717631a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f20ab8188213b73a28f4184e88d963 = $(`<div id="html_20f20ab8188213b73a28f4184e88d963" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_63c75de7186e23cb8b6705b7717631a7.setContent(html_20f20ab8188213b73a28f4184e88d963);
+            
+        
+
+        marker_ae28c4c6ef1d7dbfa90a602831148999.bindPopup(popup_63c75de7186e23cb8b6705b7717631a7)
+        ;
+
+        
+    
+    
+            var marker_26aa908745c7e85b46e4801c69494c4a = L.marker(
+                [49.110790656796674, 6.1227799837616015],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_1b3f0a10db1343e161a7a218316d6c62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26aa908745c7e85b46e4801c69494c4a.setIcon(icon_1b3f0a10db1343e161a7a218316d6c62);
+        
+    
+        var popup_5a9875ad1ce9b101044b8877ab154072 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c7100530807805564dc36b4bdbbdbb5 = $(`<div id="html_5c7100530807805564dc36b4bdbbdbb5" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_5a9875ad1ce9b101044b8877ab154072.setContent(html_5c7100530807805564dc36b4bdbbdbb5);
+            
+        
+
+        marker_26aa908745c7e85b46e4801c69494c4a.bindPopup(popup_5a9875ad1ce9b101044b8877ab154072)
+        ;
+
+        
+    
+    
+            var marker_f580e266ff784ef64463c5f4a2a0806f = L.marker(
+                [49.10790035248061, 6.121727747143665],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_bc5d1c64182dbf199211ef54325bbcff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f580e266ff784ef64463c5f4a2a0806f.setIcon(icon_bc5d1c64182dbf199211ef54325bbcff);
+        
+    
+        var popup_86bfb2ac58d4a0549eebe1ffd7d06926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23580d4414f7ae8fa9e95f6d1e641ee = $(`<div id="html_f23580d4414f7ae8fa9e95f6d1e641ee" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_86bfb2ac58d4a0549eebe1ffd7d06926.setContent(html_f23580d4414f7ae8fa9e95f6d1e641ee);
+            
+        
+
+        marker_f580e266ff784ef64463c5f4a2a0806f.bindPopup(popup_86bfb2ac58d4a0549eebe1ffd7d06926)
+        ;
+
+        
+    
+    
+            var marker_0ae7a8cf8b96558d67b4a71f05e4c12a = L.marker(
+                [49.10793433346401, 6.118076298641156],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_c1fc1bb12f43dae59c1d6aa11f06df06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ae7a8cf8b96558d67b4a71f05e4c12a.setIcon(icon_c1fc1bb12f43dae59c1d6aa11f06df06);
+        
+    
+        var popup_e8f858884b370e3644d8ae713902702a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c9af269d372bab67451a0d3ff1c3916 = $(`<div id="html_8c9af269d372bab67451a0d3ff1c3916" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_e8f858884b370e3644d8ae713902702a.setContent(html_8c9af269d372bab67451a0d3ff1c3916);
+            
+        
+
+        marker_0ae7a8cf8b96558d67b4a71f05e4c12a.bindPopup(popup_e8f858884b370e3644d8ae713902702a)
+        ;
+
+        
+    
+    
+            var marker_d522fa68fa3dda9e1b599df7b1deb87b = L.marker(
+                [49.11375438675813, 6.114668558443112],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_23b6cf71c582c3223f65df2722779a01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d522fa68fa3dda9e1b599df7b1deb87b.setIcon(icon_23b6cf71c582c3223f65df2722779a01);
+        
+    
+        var popup_7753062697dfb7370156ed88c75d8cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ab094c0847e5082be2b4c73f250508 = $(`<div id="html_a1ab094c0847e5082be2b4c73f250508" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_7753062697dfb7370156ed88c75d8cb3.setContent(html_a1ab094c0847e5082be2b4c73f250508);
+            
+        
+
+        marker_d522fa68fa3dda9e1b599df7b1deb87b.bindPopup(popup_7753062697dfb7370156ed88c75d8cb3)
+        ;
+
+        
+    
+    
+            var marker_4f9c5aa8a20ee1bfe8920d3fd373e349 = L.marker(
+                [49.109702968476526, 6.121002472600008],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_99621aa8881240d7b2b65d07b5cbe4e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4f9c5aa8a20ee1bfe8920d3fd373e349.setIcon(icon_99621aa8881240d7b2b65d07b5cbe4e9);
+        
+    
+        var popup_71be377e19de8d0d63aae7c7f901ec0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7216e28650ecd736d62855e31bb664 = $(`<div id="html_3b7216e28650ecd736d62855e31bb664" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_71be377e19de8d0d63aae7c7f901ec0e.setContent(html_3b7216e28650ecd736d62855e31bb664);
+            
+        
+
+        marker_4f9c5aa8a20ee1bfe8920d3fd373e349.bindPopup(popup_71be377e19de8d0d63aae7c7f901ec0e)
+        ;
+
+        
+    
+    
+            var marker_0201ce884b92f4dac198b30ee8f9347e = L.marker(
+                [49.11363784565812, 6.129464948029742],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_d1aa2df945445f0d18bcf869017b046d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0201ce884b92f4dac198b30ee8f9347e.setIcon(icon_d1aa2df945445f0d18bcf869017b046d);
+        
+    
+        var popup_11d225a443c246ba8a0f1b3cc4f3e779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39bbe755f79e7f86de0c645f01c73f52 = $(`<div id="html_39bbe755f79e7f86de0c645f01c73f52" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_11d225a443c246ba8a0f1b3cc4f3e779.setContent(html_39bbe755f79e7f86de0c645f01c73f52);
+            
+        
+
+        marker_0201ce884b92f4dac198b30ee8f9347e.bindPopup(popup_11d225a443c246ba8a0f1b3cc4f3e779)
+        ;
+
+        
+    
+    
+            var marker_1caaca3297d33c2eb39f99fc522bc8cb = L.marker(
+                [49.11433227214556, 6.121638586285963],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_592180469f1008ee7eaf1148c180a329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1caaca3297d33c2eb39f99fc522bc8cb.setIcon(icon_592180469f1008ee7eaf1148c180a329);
+        
+    
+        var popup_8abeee5f6c2d03ad605fecea4e1f857d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfa5ef909edfa90083b090fd2733a7a3 = $(`<div id="html_cfa5ef909edfa90083b090fd2733a7a3" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_8abeee5f6c2d03ad605fecea4e1f857d.setContent(html_cfa5ef909edfa90083b090fd2733a7a3);
+            
+        
+
+        marker_1caaca3297d33c2eb39f99fc522bc8cb.bindPopup(popup_8abeee5f6c2d03ad605fecea4e1f857d)
+        ;
+
+        
+    
+    
+            var marker_1253afadd1a69c3ff4a8695574b67fd5 = L.marker(
+                [49.11350531108109, 6.132491923856926],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_aa786a40608a55ee5af058ce75829fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1253afadd1a69c3ff4a8695574b67fd5.setIcon(icon_aa786a40608a55ee5af058ce75829fbc);
+        
+    
+        var popup_69229fd08aa9b580dfba43d36d8085a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d4635acf2c7599660bbf9b821f8bfed = $(`<div id="html_8d4635acf2c7599660bbf9b821f8bfed" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_69229fd08aa9b580dfba43d36d8085a8.setContent(html_8d4635acf2c7599660bbf9b821f8bfed);
+            
+        
+
+        marker_1253afadd1a69c3ff4a8695574b67fd5.bindPopup(popup_69229fd08aa9b580dfba43d36d8085a8)
+        ;
+
+        
+    
+    
+            var marker_9ef2c0428dbbf4b47688514088d70d44 = L.marker(
+                [49.10981222381056, 6.121773760028343],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_10c25908b9ade2f82175de156fdee31c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ef2c0428dbbf4b47688514088d70d44.setIcon(icon_10c25908b9ade2f82175de156fdee31c);
+        
+    
+        var popup_1ce39d3299eca535403cd760f57e2895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0db5247670e828afa44b9a4d1fc0cf20 = $(`<div id="html_0db5247670e828afa44b9a4d1fc0cf20" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_1ce39d3299eca535403cd760f57e2895.setContent(html_0db5247670e828afa44b9a4d1fc0cf20);
+            
+        
+
+        marker_9ef2c0428dbbf4b47688514088d70d44.bindPopup(popup_1ce39d3299eca535403cd760f57e2895)
+        ;
+
+        
+    
+    
+            var marker_46ff88927c2a1098540af09c15a8bb0f = L.marker(
+                [49.11181850831567, 6.1278869368804205],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_6f098dd662fc02a615c61241dda88dcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46ff88927c2a1098540af09c15a8bb0f.setIcon(icon_6f098dd662fc02a615c61241dda88dcf);
+        
+    
+        var popup_31b06d9cd71e30f735f4fcc950965b01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51439b3076d2c66a23eac531f5111723 = $(`<div id="html_51439b3076d2c66a23eac531f5111723" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_31b06d9cd71e30f735f4fcc950965b01.setContent(html_51439b3076d2c66a23eac531f5111723);
+            
+        
+
+        marker_46ff88927c2a1098540af09c15a8bb0f.bindPopup(popup_31b06d9cd71e30f735f4fcc950965b01)
+        ;
+
+        
+    
+    
+            var marker_50a4f21b3cff9d8ee9a5230f8863404d = L.marker(
+                [49.110757728196305, 6.1286731846482],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_e0b3dba0b0ed1fe334fc07652537a647 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50a4f21b3cff9d8ee9a5230f8863404d.setIcon(icon_e0b3dba0b0ed1fe334fc07652537a647);
+        
+    
+        var popup_d0dd3833addfda4326ec00e4bcb5000b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6bc564cfc834ec0741b0d5aaba64ec3 = $(`<div id="html_e6bc564cfc834ec0741b0d5aaba64ec3" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_d0dd3833addfda4326ec00e4bcb5000b.setContent(html_e6bc564cfc834ec0741b0d5aaba64ec3);
+            
+        
+
+        marker_50a4f21b3cff9d8ee9a5230f8863404d.bindPopup(popup_d0dd3833addfda4326ec00e4bcb5000b)
+        ;
+
+        
+    
+    
+            var marker_dcf2837cdfe7e345618f5c0a662e3a0a = L.marker(
+                [49.106817180428145, 6.108545598180218],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_6c0e4670425ae538457e13fd74ead8ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcf2837cdfe7e345618f5c0a662e3a0a.setIcon(icon_6c0e4670425ae538457e13fd74ead8ee);
+        
+    
+        var popup_ec29400e4fffa6e9422f9bb5f8967232 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc27a9d56c0e13be6f66be760cb3256 = $(`<div id="html_3fc27a9d56c0e13be6f66be760cb3256" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_ec29400e4fffa6e9422f9bb5f8967232.setContent(html_3fc27a9d56c0e13be6f66be760cb3256);
+            
+        
+
+        marker_dcf2837cdfe7e345618f5c0a662e3a0a.bindPopup(popup_ec29400e4fffa6e9422f9bb5f8967232)
+        ;
+
+        
+    
+    
+            var marker_7b9642dab1d131be3cec0b4c9bee7fe8 = L.marker(
+                [49.108173660755476, 6.11363202064058],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_bf35ce40aeb9ec3a32425f96c63d24be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b9642dab1d131be3cec0b4c9bee7fe8.setIcon(icon_bf35ce40aeb9ec3a32425f96c63d24be);
+        
+    
+        var popup_bc4cff40a2480d9ddc8f874d53b0ff36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad4f6d907a4d3f2349dc27923eddb0f4 = $(`<div id="html_ad4f6d907a4d3f2349dc27923eddb0f4" style="width: 100.0%; height: 100.0%;">Distributeur, Poubelle</div>`)[0];
+                popup_bc4cff40a2480d9ddc8f874d53b0ff36.setContent(html_ad4f6d907a4d3f2349dc27923eddb0f4);
+            
+        
+
+        marker_7b9642dab1d131be3cec0b4c9bee7fe8.bindPopup(popup_bc4cff40a2480d9ddc8f874d53b0ff36)
+        ;
+
+        
+    
+    
+            var marker_b529c874e2eb06f5a093c0a448a0f423 = L.marker(
+                [49.10638883033801, 6.109327109866105],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_675835d83320d0e2eeb4f0da9071690e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b529c874e2eb06f5a093c0a448a0f423.setIcon(icon_675835d83320d0e2eeb4f0da9071690e);
+        
+    
+        var popup_77c1ba6a82cadfec8d7fb3a9924ddc04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc68b8348ba2d57c569e07862ede740e = $(`<div id="html_fc68b8348ba2d57c569e07862ede740e" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_77c1ba6a82cadfec8d7fb3a9924ddc04.setContent(html_fc68b8348ba2d57c569e07862ede740e);
+            
+        
+
+        marker_b529c874e2eb06f5a093c0a448a0f423.bindPopup(popup_77c1ba6a82cadfec8d7fb3a9924ddc04)
+        ;
+
+        
+    
+    
+            var marker_2d058b5ad89c49d73844c9615d6eba7f = L.marker(
+                [49.10637016501987, 6.108879864524443],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_82037c0f73424889d8181103800ab79c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d058b5ad89c49d73844c9615d6eba7f.setIcon(icon_82037c0f73424889d8181103800ab79c);
+        
+    
+        var popup_74b6e16aef443064abfd19d99615c434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49c96242fafc421edb21aebc584f84f1 = $(`<div id="html_49c96242fafc421edb21aebc584f84f1" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_74b6e16aef443064abfd19d99615c434.setContent(html_49c96242fafc421edb21aebc584f84f1);
+            
+        
+
+        marker_2d058b5ad89c49d73844c9615d6eba7f.bindPopup(popup_74b6e16aef443064abfd19d99615c434)
+        ;
+
+        
+    
+    
+            var marker_b927143840dcb3762e0986d205192bb7 = L.marker(
+                [49.10653949982728, 6.106666999430086],
+                {}
+            ).addTo(map_59ec4a78d41836beb5fe4fb95a7602bd);
+        
+    
+            var icon_cda9840544060d4cda21affd0d5b2724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b927143840dcb3762e0986d205192bb7.setIcon(icon_cda9840544060d4cda21affd0d5b2724);
+        
+    
+        var popup_1c19dcd1a667b08d0cd35baf1289e75a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c4213e3e12b79191874571b2c3f9df9 = $(`<div id="html_4c4213e3e12b79191874571b2c3f9df9" style="width: 100.0%; height: 100.0%;">Poubelle</div>`)[0];
+                popup_1c19dcd1a667b08d0cd35baf1289e75a.setContent(html_4c4213e3e12b79191874571b2c3f9df9);
+            
+        
+
+        marker_b927143840dcb3762e0986d205192bb7.bindPopup(popup_1c19dcd1a667b08d0cd35baf1289e75a)
+        ;
+
+        
+    
+</script>
+</html>
